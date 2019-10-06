@@ -5,13 +5,13 @@ including the array itself) obtained by splitting s using the character c as a d
 If the allocation fails the function returns NULL. 
 
 Example:
-        ft_strsplit (“*hello*fellow***students*”, ‘*’)
+        ft_strsplit (“/hellof//fellow///students/”, ‘/')
 Returns:
           array : [“hello”, “fellow”, “students”]
 
 Parameters:
-**char const *s** - the string to split.
-**char c** - the delimiter character.
+char const *s - the string to split.
+char c- the delimiter character.
 
 Returns:
 The array of “fresh” strings that are the result of the split. 
