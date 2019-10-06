@@ -30,7 +30,9 @@ char **split;
    k++;
  }
 
-// skip past delimiters, while not a delimiter copy character until del is reached,repeat until the last array which is reserved for terminating 2d array. 
+/* skip past delimiters, while not a delimiter copy character until del is reached
+ repeat until the last array which is reserved for terminating 2d array. Most proud of this section
+ since it strengthened my understanding of pointer to pointer logic.*/  
   while (*s)
  {
    if (*s == c)
